@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "client/package.json",  
+        "use": "@vercel/node"
+      }
+    ],
+    "env": {
+      "NODE_VERSION": "20.x"
+    },
+    "installCommand": "npm install --legacy-peer-deps",
+    "buildCommand": "npm run build",
+    "devCommand": "npm run dev"
+  }
+  
